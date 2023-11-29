@@ -11,7 +11,7 @@ public class Hasab extends FaIdom {
     
     public double  terfogat(){
         
-        return 0;
+        return a*b*magassag;
         
     }
     

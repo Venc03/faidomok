@@ -10,7 +10,7 @@ package modell;
     
     public double terfogat(){
         
-            return 0;
+            return (4*Math.pow(sugar, 3)*Math.PI)/3;
         
     }
     
