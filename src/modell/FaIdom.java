@@ -3,16 +3,10 @@ package modell;
 public abstract class FaIdom {
     private static double fajsuly = 0.8;
     
-    public double terfogat(){
-        
-        return 0;
-        
-    }
+    public abstract double terfogat();
     
     public double suly(){
-        
-        return 0;
-        
+        return fajsuly * terfogat();
     }
 
     @Override

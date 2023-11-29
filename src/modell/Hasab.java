@@ -14,5 +14,12 @@ public class Hasab extends FaIdom {
         return a*b*magassag;
         
     }
+
+    @Override
+    public String toString() {
+        return "Hasab{" + "a=" + a + ", b=" + b + ", magassag=" + magassag + '}';
+    }
+    
+    
     
 }

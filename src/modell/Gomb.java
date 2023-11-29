@@ -13,6 +13,13 @@ package modell;
             return (4*Math.pow(sugar, 3)*Math.PI)/3;
         
     }
+
+    @Override
+    public String toString() {
+        return "Gomb{" + "sugar=" + sugar + '}';
+    }
+    
+    
     
     
 }
